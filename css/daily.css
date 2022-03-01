@@ -1,34 +1,53 @@
 @font-face {
-    font-family: 'roboto';
-    src: url(/fonts/Roboto/Roboto-LightItalic.ttf);
+  font-family: "roboto";
+  src: url(/fonts/Roboto/Roboto-LightItalic.ttf);
 }
-:root {font-size: 15px;
-font-family: 'roboto';}
-
-
-
-body{margin: auto;
-width: 300px;}
-.plan{color: rgb(211, 211, 211);
-border-style: groove;
-border-left: 0px;
-border-right: 0px;
-border-top: 0px;
-border-width: 2px;
-
+:root {
+  font-size: 15px;
+  font-family: "roboto";
 }
-.encabezado { width: 200px;}
 
-.rosa{background-color: rgb(216, 133, 147);
-width: 200px;
- padding: 10px;  
-color: white;
-box-shadow: 0px 15px 15px pink;}
-
-.event {color: rgb(211, 211, 211);}
-
- 
-.oscuro{ 
-    background-color: #1f1f1f; 
-    color: #f1eded; 
+body {
+  margin: auto;
+  width: 300px;
 }
+.plan {
+  color: rgb(211, 211, 211);
+  border-style: groove;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-width: 2px;
+}
+.encabezado {
+  width: 200px;
+}
+
+.rosa {
+  background-color: rgb(248, 165, 179);
+  width: 200px;
+  padding: 8px 20px 10px 32px;
+  color: white;
+}
+
+.event {
+  color: rgb(211, 211, 211);
+}
+
+.oscuro {
+  background-color: #1f1f1f;
+  color: #f1eded;
+}
+
+.todo {
+  box-shadow: 5px 5px 5px 5px rgb(224, 224, 224);
+  padding: 1.5rem;
+}
+
+.buton {
+padding: 6px 10px 6px 10px;
+border-radius: 1.3rem;
+border-style: none;
+position: absolute;
+left: 68rem;
+top: 11rem;}
