@@ -1,0 +1,17 @@
+:root{font-size: 0.785rem;}
+body { background-image: url(/img/arboles.jpeg);
+    
+background-repeat: no-repeat;
+background-size: 45em;
+
+
+
+
+table{
+font-size: 1.6em;
+margin: 0 auto;
+}
+.arbol { margin: auto;
+width: 300px;
+filter: blur(6px);}
+

@@ -1,0 +1,11 @@
+:root{font-size: 20px;}
+
+.negro {background-color: #EA6153;}
+
+
+table{border-collapse: collapse;}
+    
+    .wins{background-color: lightgrey;
+    
+    border-collapse: collapse;}
+    td{padding: 40px;}

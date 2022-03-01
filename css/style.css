@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+  font-size: 1.2rem;
+}
+body {
+  background-color: lightgrey;
+}
+
+.dias {
+  color: lightgray;
+}
+
+.meses {
+  border-radius: 1rem;
+  background-color: #eaedf2;
+  padding: 0.5rem;
+  border:none;
+}
+select {
+  background-color: #eaedf2;
+}
+.dia31 {
+  color: lightgray;
+}
+.anios {
+  border-radius: 1rem;
+  padding:10px 20px;
+  background-color: #eaedf2;
+  border: none;
+}
+.calendario {
+  background-color: white;
+  margin: auto;
+  width: 210px;
+  border-radius: 10px;
+  font-family: "roboto";
+}
+.back {
+  background-color: #1652fe;
+  border:none;
+  border-radius: 1rem;
+  padding:10px 20px ;
+  
+}
+.rojo {
+  background-color: rgba(168, 70, 70, 0.267);
+  color: #f9758b;
+  border-radius: 0.8rem;
+}
+
+.dosuno {
+  background-color: #f93946;
+  color: white;
+  border-radius: 0.8rem;
+}
+table{margin:auto;}
+
+.botones {text-align:center;}
